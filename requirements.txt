@@ -1,0 +1,3 @@
+fastapi[standard]
+google-generativeai
+dotenv
