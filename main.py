@@ -16,7 +16,7 @@ model = genai.GenerativeModel(model_name='gemini-1.5-flash-latest')
 app = Flask(__name__)
 CORS(app)  # Habilita CORS para todos los orígenes
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def index():
     return "¡Servidor Flask funcionando! Visita /recetas/generar?tipo=vegana para probar."
 
