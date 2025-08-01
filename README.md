@@ -1,2 +1,2 @@
 # EjemploGeminiFastAPI
-Ejemplo de uso de la capa gratuita del LLM Gemini y FastAPI para crear APIs en Python
+Ejemplo de uso de la capa gratuita del LLM Gemini (y FastAPI {ya no}) para crear APIs en Python adaptada a Flask para la asignatura de Despliegue
