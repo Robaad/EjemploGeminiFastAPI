@@ -5,6 +5,8 @@ import os
 from flask_cors import CORS
 
 # Cargar variables de entorno
+# Get the API key from here: https://ai.google.dev/tutorials/setup
+# Create a new secret called "GEMINI_API_KEY", via Add-ons/Secrets in the top menu, and attach it to this notebook
 load_dotenv()
 api_key = os.getenv('API_KEY')
 genai.configure(api_key=api_key)
